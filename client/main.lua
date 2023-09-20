@@ -386,7 +386,6 @@ end
 
 function MakeMShake()
 	TriggerServerEvent('qb-burgershot:remove:mshakeformula')
-    Player.Functions.RemoveItem("burger-mshakeformula", 1)
     QBCore.Functions.Progressbar("pickup", "Filling up a cup..", 4000, false, false, {
         disableMovement = true,
         disableCarMovement = false,
